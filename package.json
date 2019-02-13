@@ -1,0 +1,32 @@
+{
+  "name": "leviathan-pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesosag/leviathan-pwa.git"
+  },
+  "author": "cesosag",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesosag/leviathan-pwa/issues"
+  },
+  "homepage": "https://github.com/cesosag/leviathan-pwa#readme",
+  "devDependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "next": "^8.0.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  }
+}
